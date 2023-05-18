@@ -20,7 +20,7 @@ func main() {
 
 	//router memberships API
 
-	err := http.ListenAndServe(":5000", router)
+	err := http.ListenAndServe(":5905", router)
 	if err != nil {
 		fmt.Println(err)
 	}
